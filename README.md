@@ -2,11 +2,9 @@
 
 A Repository of Artistic Visualisations Created with R.
 
-## Examples
+## Interpolate squares
 
-### Interpolate squares
-
-Inperpolates the edges of a square to random line segments inside the square.
+Inperpolates the edges of a square to random line segments.
 
 ```R
 # Load packages
