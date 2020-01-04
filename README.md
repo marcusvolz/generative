@@ -1,10 +1,10 @@
 # aRtwork
 
-A Repository of Artistic Visualisations Created with R.
+A repository of artistic visualisations created with R.
 
 ## Interpolate squares
 
-Inperpolates the edges of a square to random line segments.
+Interpolates the edges of a square to random line segments.
 
 ```R
 # Load packages
