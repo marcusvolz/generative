@@ -2,9 +2,30 @@
 
 A repository of artistic visualisations created with R.
 
-## Interpolate squares
+### Procedural ring
 
-Interpolates the edges of a square to random line segments.
+```R
+# Load packages
+library(aRtwork)
+library(ggplot2)
+library(tweenr)
+
+# Generate data
+df <- procedural_ring(seed = 3, n = 400, n_circles = 4, r_0 = 5000,
+                      eps = 500, eps_big = 5000, p_defect = 0.1, delta = 2.02)
+
+# Create plot
+p <- ggplot() +
+  geom_segment(aes(x, y, xend = xend, yend = yend), df, size = 0.025, alpha = 0.05) +
+  coord_equal() +
+  theme_void()
+
+# Save plot (might take a few moments)
+ggsave("procedural_ring.png", p, width = 20, height = 20, units = "cm")
+```
+![](https://github.com/marcusvolz/aRtwork/blob/master/plots/procedural_ring.png)
+
+## Interpolate squares
 
 ```R
 # Load packages
@@ -25,4 +46,4 @@ p <- ggplot() +
 ggsave("interpolate_squares.png", p, width = 20 , height = 20, units = "cm")
 ```
 
-![](https://github.com/marcusvolz/aRtwork/blob/master/plots/interpolate_squares.png "")
+![](https://github.com/marcusvolz/aRtwork/blob/master/plots/interpolate_squares.png)

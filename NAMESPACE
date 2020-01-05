@@ -2,5 +2,6 @@
 
 export("%>%")
 export(interpolate_squares)
+export(procedural_ring)
 export(theme_blankcanvas)
 importFrom(magrittr,"%>%")
