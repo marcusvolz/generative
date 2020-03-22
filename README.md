@@ -1,4 +1,4 @@
-# aRtwork
+# generative
 
 A repository of generative visualisations created with R.
 
