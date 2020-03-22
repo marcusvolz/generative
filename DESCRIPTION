@@ -1,5 +1,5 @@
-Package: aRtwork
-Title: A Repository of Artistic Visualisations Created with R
+Package: generative
+Title: A Repository of Generative Visualisations Created with R
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Marcus",
@@ -14,4 +14,4 @@ Imports:
   tweenr
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.0

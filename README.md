@@ -1,6 +1,13 @@
 # aRtwork
 
-A repository of artistic visualisations created with R.
+A repository of generative visualisations created with R.
+
+### Installation
+
+```R
+devtools::install_github("marcusvolz/generative")
+library(generative)
+```
 
 ### Procedural ring
 
