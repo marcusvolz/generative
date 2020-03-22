@@ -13,7 +13,7 @@ library(generative)
 
 ```R
 # Load packages
-library(aRtwork)
+library(generative)
 library(ggplot2)
 library(tweenr)
 
@@ -36,7 +36,7 @@ ggsave("procedural_ring.png", p, width = 20, height = 20, units = "cm")
 
 ```R
 # Load packages
-library(aRtwork)
+library(generative)
 library(ggplot2)
 
 # Generate data
