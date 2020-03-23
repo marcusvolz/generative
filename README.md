@@ -11,25 +11,8 @@ library(generative)
 
 ### Procedural ring
 
-```R
-# Load packages
-library(generative)
-library(ggplot2)
-library(tweenr)
+Code is available at the following [Gist](https://gist.github.com/marcusvolz/69b38feb9908aa3a80ff6df77c7e00bd).
 
-# Generate data
-df <- procedural_ring(seed = 3, n = 400, n_circles = 4, r_0 = 5000,
-                      eps = 500, eps_big = 5000, p_defect = 0.1, delta = 2.02)
-
-# Create plot
-p <- ggplot() +
-  geom_segment(aes(x, y, xend = xend, yend = yend), df, size = 0.025, alpha = 0.05) +
-  coord_equal() +
-  theme_void()
-
-# Save plot (might take a few moments)
-ggsave("procedural_ring.png", p, width = 20, height = 20, units = "cm")
-```
 ![](https://github.com/marcusvolz/aRtwork/blob/master/plots/procedural_ring.png)
 
 ## Interpolate squares
