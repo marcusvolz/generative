@@ -11,11 +11,13 @@ library(generative)
 
 ### Procedural ring
 
-Code is available at the following [Gist](https://gist.github.com/marcusvolz/69b38feb9908aa3a80ff6df77c7e00bd).
+Refer to the following [Gist](https://gist.github.com/marcusvolz/69b38feb9908aa3a80ff6df77c7e00bd).
 
 ![](https://github.com/marcusvolz/aRtwork/blob/master/plots/procedural_ring.png)
 
 ## Interpolate squares
+
+Refer to the following [Gist](https://gist.github.com/marcusvolz/28881fe048778b89a3a2f465c731ed94).
 
 ```R
 # Load packages
