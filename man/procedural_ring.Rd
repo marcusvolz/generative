@@ -12,7 +12,8 @@ procedural_ring(
   eps = 500,
   eps_big = 5000,
   p_defect = 0.1,
-  delta = 2.02
+  delta = 2.02,
+  wildflower = FALSE
 )
 }
 \arguments{
@@ -31,6 +32,8 @@ procedural_ring(
 \item{p_defect}{The probability of a defect (an unusualy high offset)}
 
 \item{delta}{The angle (in degrees) between successive radial movements around the circumference (+/-1 deg is added)}
+
+\item{wildflower}{If TRUE, r is always updated in the positive radial direction}
 }
 \description{
 Generates data from a contrived algorithm in which a point continuously moves around
